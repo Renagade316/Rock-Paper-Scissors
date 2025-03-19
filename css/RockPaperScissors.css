@@ -1,0 +1,47 @@
+body {
+    background-color: antiquewhite;
+}
+
+#game-stage {
+    height: 500px;
+    width: 1050px;
+    position:relative;
+}
+
+#game-log {
+    height: 200px;
+    width: 1000px;
+    background-color: white;
+    overflow: scroll;
+    position: absolute; 
+    bottom: 0;
+    width: 99%;
+}
+
+#game-log-header {
+    width: 1000px;
+    background-color:gainsboro;
+    border-style: hidden;
+    position: sticky;
+}
+
+div {
+    border-style: solid;
+    background-color: whitesmoke;
+}
+
+button {
+    height: 25px;
+    width: 50px;
+    position:relative;
+    bottom: 5;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
